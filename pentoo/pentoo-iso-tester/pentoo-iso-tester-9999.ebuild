@@ -16,12 +16,10 @@ DOCS="README.md"
 inherit git-r3
 
 EGIT_REPO_URI="https://github.com/Wuodan/${PN}.git"
-EGIT_BRANCH="2020"
 
 RDEPEND="
 	app-emulation/vagrant
 	|| ( app-emulation/virtualbox app-emulation/virtualbox-bin )
-	app-misc/jq
 	dev-util/packer
 "
 
