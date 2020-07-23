@@ -25,7 +25,7 @@ RDEPEND="
 
 src_install() {
 	exeinto /usr/bin/
-	newexe pentoo-packer.sh pentoo-packer
+	newexe ${PN}.sh ${PN}.sh
 	insinto /usr/share/${PN}/
 	doins Vagrantfile pentoo.json
 	einstalldocs
